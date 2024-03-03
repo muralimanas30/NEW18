@@ -23,8 +23,6 @@
     justify-content: stretch;
     align-items: center;
     flex-direction: column;
-    overflow: scroll;
-
 }
 
 @keyframes scrollingwin2 {
@@ -178,10 +176,9 @@
     #about{
         flex-direction: column;
         justify-content: space-evenly;
-        height: auto;
         height: 60vh;
-        width: calc(100% - 8rem);
-        margin: 2rem;
+        width: 100%;
+        margin: 2rem 0rem;
     }
     #about-text , #foremail p{
         
